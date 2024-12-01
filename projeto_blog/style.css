@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(185, 164, 135);
+}
+
+h1{
+    color: rgb(104, 89, 73);
+}
+
+p {
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.6; /* Melhora a legibilidade aumentando o espaçamento entre linhas */
+    margin: 0; /* Remove margens extras */
+}
+
+
+.nav-bar{
+    background-color: rgb(104, 89, 73);
+    width: 60%; /* Limita a largura a 60% da tela */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: left; /* Ajusta o texto para alinhamento à esquerda */
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding dentro da largura total */
+    
+}
+
+a{
+    
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.conteudo {
+    background-color: rgb(197, 183, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%; /* Limita a largura a 60% da tela */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: left; /* Opcional: ajusta o texto para alinhamento à esquerda */
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding dentro da largura total */
+}
+
+
+.central-container {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Garante que ocupe 100% da altura da tela */
+    text-align: center; /* Opcional, para centralizar textos */
+    margin: 0 auto; /* Garante centralização em dispositivos menores */
+}
+
+img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: flex-start; /* Alinha os elementos à esquerda */
+    width: 60%; /* Limita a largura do formulário */
+    margin: 0 auto; /* Centraliza horizontalmente na página */
+}
+
+input, textarea {
+    width: 50%; /* Ajusta os campos para ocupar toda a largura do formulário */
+    padding: 10px;
+    margin: 5px 0 15px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold; /* Destaca os rótulos */
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: rgb(104, 89, 73);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center; /* Centraliza o botão dentro do formulário */
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(85, 72, 59);
+}
